@@ -10,7 +10,7 @@ class Bootstrap
     {
         $bootstrap = Packages::selfHttpPath() . "/static/bootstrap.min.js";
         $popper = Packages::selfHttpPath() . "/static/popper.min.js";
-        echo "<script src='$bootstrap'></script>";
         echo "<script src='$popper'></script>";
+        echo "<script src='$bootstrap'></script>";
     }
 }
