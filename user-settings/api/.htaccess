@@ -1,4 +1,4 @@
-<FilesMatch ".*\.php$">
+<FilesMatch "reset.php|update.php">
     Order Allow,Deny
     Allow from all
 </FilesMatch>
